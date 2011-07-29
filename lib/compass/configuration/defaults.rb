@@ -88,10 +88,6 @@ module Compass
       def default_http_images_dir
         top_level.images_dir
       end
-      
-      def default_sprite_search_path
-        [top_level.images_path]
-      end
 
       def default_http_images_path
         http_root_relative top_level.http_images_dir

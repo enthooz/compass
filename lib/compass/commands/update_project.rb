@@ -34,8 +34,7 @@ module Compass
         compiler = new_compiler_instance
         check_for_sass_files!(compiler)
         compiler.clean! if compiler.new_config?
-        error_count = compiler.run
-        failed! if error_count > 0
+        compiler.run
       end
 
       def check_for_sass_files!(compiler)

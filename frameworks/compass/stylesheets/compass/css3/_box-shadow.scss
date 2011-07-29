@@ -24,10 +24,7 @@ $default-box-shadow-spread : false !default;
 // The default shadow inset: inset or false (for standard shadow).
 $default-box-shadow-inset : false !default;
 
-// Provides cross-browser for Webkit, Gecko, and CSS3 box shadows when one or more box
-// shadows are needed.
-// Each shadow argument should adhere to the standard css3 syntax for the
-// box-shadow property.
+// Provides cross-browser for Webkit, Gecko, and CSS3 box shadows when one or more box shadows are needed.
 @mixin box-shadow(
   $shadow-1 : default,
   $shadow-2 : false,

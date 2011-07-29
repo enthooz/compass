@@ -35,8 +35,6 @@ private
       'image/jpeg'
     when /\.gif$/i
       'image/gif'
-    when /\.svg$/i
-      'image/svg+xml'
     when /\.otf$/i
       'font/opentype'
     when /\.ttf$/i
